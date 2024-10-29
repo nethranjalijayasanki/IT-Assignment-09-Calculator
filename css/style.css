@@ -7,7 +7,7 @@
 .main{
     width: 100%;
     height: 100vh;
-    background: lightyellow;
+    background: gray;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -30,6 +30,10 @@
     cursor: pointer;
     margin: 10px;
 }
+.text-box .text{
+    color: black;
+    background: white;
+}
 form .text-box{
     display: flex;
     justify-content: flex-end;
@@ -41,6 +45,10 @@ form .text-box input{
     font-size: 45px;
     box-shadow: none;
 }
+
 form input.equal{
     width: 145px;
+}
+.body .operator{
+    color:lightblue ;
 }
